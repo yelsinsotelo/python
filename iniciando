@@ -1,0 +1,51 @@
+¿Porque la gente usa python?
+No puede responderse con completa precisión, la seleccion de una herramienta de desarrollo es
+es unicamente basada en las restricciones o ptrgrtrnvisd personales 
+
+para identificar que tipo de valor se emplean puedo usar: 
+type();
+
+variables: la sentencia de asignación crea nuevas variables y les asigna valor
+ejm: 
+mensaje="hola microdev"
+n=12
+pi=3.141516
+
+print ---->>> 
+      print variable
+      print ("microdev")
+      print 4
+
+NOMBRE DE VARIABLES Y PALABRAS RESERVADADS: 
+longitud arbitraria, formada por latras y numeros, deben comenzar con una letra,
+por conveniencia no se emplean mayusculas 
+Es legal emplear el guion bajo para separarnombres ejmplo
+mi_nombre
+SI INTENTA DARLE A UNA VARIABLE UN NOMBRE ILEGAL TENDRA UN ERROR DE SINTAXIS
+
+tampoco emplear palabras reservadas: 
+and continue else for import not raise asssert def except from in or return
+break del exec global is pass try class elif finally id lambda print while 
+
+SENTENCIAS: 
+
+puede ser ejecutada por el intérprete de python 
+
+OPERADORES: 
+SUMA(+) RSTA (-) DIVICION(/) POTENCIA(**) MULTIPLICACION(*)
+LA DIVICION ENTRE ENTEROS DA OTRO ENTERO, SI LA DIVICION NO ES ENREALIDAD ENTERA
+PYTHON LA APROXIMA SIEMPRE A LA BAJA.
+
+REGLA DE OPERACIONES (REGLA PRECEDENCIA)
+
+OPERACIONES SOBRE CADENAS -->> NO SE PUEDE REALIZA OPERACIONES EN CADADENAS DE TEXTO
+
+PARA CADENAS EL + ---> REPRESENTA CONCATENAR 
+
+FRUTA="PLATANO "+"ES" + "DELICIOSO"
+
+EL OPERADOR * ----> EN CADENAS SE EMPLEA PARA GENERAR REPETICIONES
+HOLA='CHIST'*3 ---> 'CHISTCHISTCHIST'
+
+COMentarios
+# para hace un comntario se antecede la almuadialla #.
