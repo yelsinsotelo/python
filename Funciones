@@ -1,0 +1,69 @@
+1. LLAMADA  A FUNCIONES : 
+FUNCION(PARAMETRO) ---> ESTA ES LA FORMA CORRECTA DE LLAMDO 
+si la funcion devuelve un valor este puede ser almacenad en : 
+valorxd=función(parámetro)
+otro ejemplo es la función ID
+id(3) ---> devuelve un entero que actua como identificador único de ese valor
+
+cada valor tiene su id que es un valor único relacionado con dónde se almacena en la memoria
+
+conversión de tipos: 
+
+funciones internas que convieten valores de un tipo a otro 
+
+toma un valor y lo convierte a entero si es posible: 
+int("32")===>>> 32 
+
+int("hola") --> error
+
+convierte flotantes a entero 
+int(3,9999) >>>> 3
+float()
+y finalmeente str() convierte a tipo string
+
+python distingeue entre 1 y 1.0 
+
+FUNCIONES MATEMÁTICAS 
+
+Es posible que ya haya visto usted en matamáticas funciones como sin(seno ) y log, 
+para poder usarla primero emplearemos :
+
+import math
+
+el comando import permite importar las librerias que contiene a los determinados
+funciones que van a requerirse 
+
+CREACIÓN DE NUEVAS FUNCIONES
+
+sintaxis : 
+
+  def NOMBRE ( LISTA DE PARAMETROS): 
+      SENTENCIAS
+      
+ PARAMETROS Y ARGUMENTOS
+ 
+ def HOLAMUNDO(dia) ----------------->>> AQUI SE CONOCE COMO ARGUMENTO
+    print("holamundo",dia)  =====>>>>> AQUI SE CONOCE COMO PARÁMETRO
+ 
+
+ Variables y parametros locales
+ 
+ cuando se crea una variable dentro de una funcion, esta no puede ser usada fuera
+ de ella.
+ 
+ DIAGRAMA DE PILA
+ 
+ Este enfoque permite tener presente donde se ubican las variables y donde pueden
+ ser utilizadas.
+ 
+ cuando se crea una variable fuera de cualquier funcion, pertenece a __main__.
+ 
+ funciones con resultado:
+ 
+ 
+ 
+
+
+
+
+
